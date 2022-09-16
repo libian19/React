@@ -1,0 +1,16 @@
+section{
+    width: 400px;
+    margin: 12px auto;
+}
+
+.TodoList{
+    border-radius: 17px;
+    background: #eed2d2;
+    box-shadow:  16px 16px 21px #b09b9b,
+             -16px -16px 21px #ffffff;
+    width: 100%;
+    margin: 24px auto;
+    list-style: none;
+    padding: 8px 0 24px;
+  
+}
