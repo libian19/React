@@ -1,0 +1,74 @@
+form{
+    width: 95%;
+    max-width: 360px;
+    border: 3px, solid #202329;
+    border-radius: 15px;
+    box-shadow:  10px 10px 10px #b09b9b,
+             -8px -8px 5px #ffffff;
+    background-color: rgb(207, 201, 201);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+label{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    margin: 24px 4px;
+
+}
+
+textarea{
+    width: calc(100%-20px);
+    background-color: #f9fbfc;
+    border: 2px, solid #202329;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 18px;
+    
+}
+
+textarea::placeholder{
+    font-family: 'Montserrat';
+    color: #eed2d2;
+}
+
+textarea:focus{
+    outline-color: grey;
+}
+
+.formButton-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto 24px;
+}
+.formButton{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+.formButton:hover{
+    transform:scale(1.1);
+    font-weight: bold;
+}
+
+.formButton-add{
+    background-color: #eed2d2;;
+    box-shadow: 0px5px25pxrgba(97, 218, 250, 0.5);
+}
+.formButton-cancel{
+    background: transparent;
+}

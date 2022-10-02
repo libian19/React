@@ -1,14 +1,29 @@
 .CreateTodoButton{
-    width: 30px;
-    background-color: black;
+    width: 40px;
+    height: 40px;
+    background: #eed2d2;
+    box-shadow:  5px 5px 5px #b09b9b,
+             -3px -3px 3px #f3dbdb;
     border-radius: 50%;
-    color: yellow;
-    font-size: 24px;
+    color: rgb(165, 61, 61);
+    font-size: 32px;
+    font-weight: bold;
     cursor:pointer;
-    position: fixed;
-    margin-top: -396px;
-    margin-left: 161px;
+    position: absolute;
+    top: 83px;
+    right: auto;
+    z-index: 1;
 }
 .CreateTodoButton:hover{
     transform:scale(1.25);
 }
+
+.openModal{
+    color: red;
+}
+
+/*
+  .CreateTodoButton:hover {
+    transform: rotate(224deg);
+  }
+*/
